@@ -247,7 +247,7 @@ main h1 {
 
 .product .product-price:before,
 .product .product-line-price:before{
-    content: 'VND ';
+    content: ' ';
 }
 
 .totals-value:after {
@@ -368,14 +368,14 @@ label {
 
 /*-----------------------------------*/
 .recommended-items {
-    margin-left: 5px;
+    margin-left: 15px;
 }
 .recommended-items .card {
     width: 140px;
     height: 250px;
     float: left;
     display: block;
-    margin-left: 10px;
+    margin-right: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
     cursor: pointer;
@@ -405,7 +405,7 @@ label {
 }
 
 .product-quantity input {
-    padding-left: 5px!important;
+    padding-left: 10px!important;
     margin-left: 27px;
     border-radius: 0px;
     width: 30px !important;

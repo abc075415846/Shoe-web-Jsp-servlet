@@ -140,7 +140,11 @@ hr {
     height: 45px;
 }
 
-
+.form-group .col-md-12 p{
+    padding-left: 5px;
+    padding-top: 2px;
+    font-size: 13px;
+}
 /*------------------footer-----------------------*/
 
 footer {

@@ -40,15 +40,18 @@ main {
     padding-top: 5px;
 }
 
+/*--------------------------------------------------------------*/
 .product-grid6,
 .product-grid6 .product-image6 {
-    overflow: hidden
+    overflow: hidden;
+    
 }
 
 .product-grid6 {
     text-align: center;
     position: relative;
-    transition: all .5s ease 0s
+    transition: all .5s ease 0s;
+    height: 332px;
 }
 
 .product-grid6:hover {
@@ -83,11 +86,12 @@ main {
 }
 
 .product-grid6 .title {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     text-transform: capitalize;
     margin: 0 0 10px;
-    transition: all .3s ease 0s
+    transition: all .3s ease 0s;
+    height: 46px;
 }
 
 .product-grid6 .title a {
@@ -99,7 +103,7 @@ main {
 }
 
 .product-grid6 .price {
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 600;
     color: #2e86de
 }
@@ -210,7 +214,8 @@ main {
 
 .row {
     margin: 20px;
-}-------------------------*/
+}
+/*-------------------------*/
 
 .row {
     margin-bottom: 20px;

@@ -16,7 +16,7 @@
 }
 
 .control-label {
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 700;
     text-transform: capitalize;
     box-sizing: border-box;
@@ -88,4 +88,10 @@ fieldset {
 .have-account {
     text-align: center;
     font-size: 14px;
+}
+
+.form-horizontal p{
+    padding-left: 5px;
+    padding-top: 2px;
+    font-size: 13px;
 }
