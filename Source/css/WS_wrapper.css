@@ -1,0 +1,292 @@
+body {
+    width: 100%;
+    height: auto;
+    font-family: Roboto, Helvetica, Catamaran, Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.header-fix {
+    width: 100%;
+    height: 80px;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    border: 0;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.header-top {
+    height: 32px;
+    background: linear-gradient(to right, #000000 54%, #808080 140%);
+}
+
+.header-top ul {
+    float: right;
+    margin-right: 100px;
+    font-family: catamaran, arial;
+    text-transform: uppercase;
+    margin-bottom: -10px;
+
+}
+
+.header-top ul li {
+    list-style-type: none;
+    padding: 0 15px;
+    line-height: 30px;
+    float: left;
+}
+
+.header-top ul li a {
+    font-size: 12px;
+    font-weight: 400;
+    color: #f1f1f1;
+    padding: 0 3px;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.top-sale {
+    background-color: #ff8000;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    transition: .5s;
+}
+
+.top-sale:hover a {
+    color: #000;
+}
+
+/*--------------------------HEADER BOTTOM-----------------------------*/
+.navbar-inverse {
+    border-radius: 0px !important;
+}
+
+.container-fluid {
+    background-color: black;
+}
+.navbar-nav {
+    padding-left: 185px !important;
+}
+.dropdown-child li a {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.dropdown-toggle, 
+.navbar-nav .active{
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.nav li:hover {
+    background-color: #fff !important;
+    transition: .4s;
+}
+
+.dropdown:hover .dropdown-toggle {
+    color: black !important;
+    transition: .8s;
+}
+
+.navbar-form {
+    position: absolute;
+    right: 7.5%;
+}
+
+/*----------------LOGO--------------*/
+
+.logo a img {
+    position: absolute;
+    display: inherit;
+    float: left;
+    width: 100px;
+    height: 80px;
+    margin-left: 100px;
+    z-index: 1;
+}
+
+/*-------------------------DROPDOWN MENU-------------------------------*/
+
+.dropdown-menu {
+    display: none !important;
+    position: absolute;
+    width: 700px;
+    height: 300px;
+    top: 0;
+    left: 0 !important;
+}
+
+.dropdown-child {
+    list-style: none;
+}
+
+.dropdown-child li {
+    display: block;
+    float: left;
+    margin-top: 20px;
+    width: 170px;
+    border-right: 1px solid #ccc;
+    padding-left: 20px;
+}
+
+.dropdown-child li h5 {
+    font-weight: 900;
+    font-size: 16px;
+
+}
+
+.dropdown-child li a {
+    display: block;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block !important;
+
+}
+
+/*-----------------------------main-----------------------------------*/
+
+/*---------------------------------------footer----------------------*/
+
+footer {
+    background: #000;
+    width: 100%;
+    height: 320px;
+    display: inline-block;
+}
+
+.footer-wrapper {
+    margin: 0 100px;
+}
+
+.footer-links {
+    box-sizing: border-box;
+}
+
+.footer-links ul {
+    width: 182px;
+    float: left;
+    margin: 20px;
+    list-style-type: none;
+    line-height: 1.5;
+    padding-left: 0;
+}
+
+.footer-links ul li {
+    list-style-type: none;
+}
+
+.footer-links ul li:hover a {
+    color: #999;
+}
+#links-special li a {
+    color: #c2c2a3;
+}
+
+#links-special li a:hover {
+    color: #fff;
+}
+
+.footer-links ul h5 a {
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: .5px;
+    text-decoration: none;
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+
+.footer-links ul li a {
+    color: #fff;
+    letter-spacing: .5px;
+    text-decoration: none;
+    font-size: 14px;
+
+}
+
+/*---------coppy rigrt----------------*/
+
+.coppy-right {
+    display: flex;
+    width: 100%;
+    display: inline-block;
+    color: #fff;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-left: 15px;
+    padding-top: 12px;
+
+}
+
+.coppy-right p {
+    font-size: 12px;
+    margin: 5px;
+}
+
+main {
+    margin-top: 80px;
+}
+
+/*---------*/
+.breadcrumb {
+    padding: 15px 20px !important;
+}
+/*------dropdown-account-------*/
+.dropdown-account {
+    position: relative;
+    display: block;
+}
+
+.dropdown-account .glyphicon-menu-down {
+    opacity: .7;
+    font-size: 10px;
+
+}
+
+.dropdown-account .dropdown-menu {
+    display: none !important;
+    position: absolute;
+    margin-right: 0px;
+    width: 50px;
+    height: 100px;
+    bottom: 0;
+    left: 0;
+}
+.dropdown-child {
+    padding-left: 0;
+}
+
+.dropdown-child  li {
+    margin: 0;
+    padding: 0 !important;
+    border: 0px ;
+}
+.dropdown-account .dropdown-child {
+    list-style: none;
+    margin-right: 0px;
+    box-sizing: border-box;
+}
+
+
+.dropdown-account .dropdown-child li a {
+    display: block;
+    text-transform: capitalize;
+    color: black;
+    padding-left: 30px;
+    font-size: 13px;
+}
+
+.dropdown-account:hover .dropdown-menu {
+    display: block !important;
+
+}
+
+

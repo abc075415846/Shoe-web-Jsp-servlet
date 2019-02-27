@@ -1,0 +1,15 @@
+/*
+.clearfix {
+    width: 80% !important;
+    margin: 0 auto !important;
+}
+*/
+
+main{
+    min-height: 76vh;
+}
+
+.breadcrumb .col-sm-4 {
+    float: right;
+    margin-right: 5.5%;
+}

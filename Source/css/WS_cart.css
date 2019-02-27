@@ -1,0 +1,58 @@
+main {
+    margin-top: 80px;
+    font-family: Catamaran;
+    
+}
+.main-wrapper {
+    width: 1000px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.main-your-cart {
+    padding: 10px 0;
+}
+
+.main-your-cart h2 {
+    text-transform: uppercase;
+    background-color:  #c2c2f0;
+    padding-left: 10px;
+}
+
+.main-your-cart p {
+    background-color:  #eaeafa;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+/*--------------------button go to shop-----------------------------*/
+.your-cart-button {
+    position: relative;
+    display: block;
+    background: #ffcc00;
+    width: 300px;
+    height: 48px;
+    line-height: 43px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+#btnsubmit {
+    border: 0;
+    background: #ffcc00;
+    color: #fff;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    margin-left: 35%;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+.fa-chevron-circle-right {
+    font-size: 16px;
+    color: #fff;
+    background-color: #ffcc00;
+}
+

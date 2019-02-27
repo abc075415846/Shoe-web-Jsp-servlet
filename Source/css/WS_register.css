@@ -1,0 +1,91 @@
+.main-form-login {
+    margin-bottom: 35px;
+    padding-left: 5px;
+}
+.container h3 {
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 35px;
+    border-bottom: 1px solid #ddd;
+
+}
+
+.control-group {
+    line-height: 42px;
+}
+
+.control-label {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    height: 30px;
+}
+
+.controls input,
+.controls .form-control,
+.control-group .input-group{
+    width: 400px;
+    height: 37px !important;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    margin-top: -10px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding-left: 10px;
+
+}
+
+.controls input[type="text"],
+.controls input[type="password"] {
+    font-size: 14px;
+}
+
+.controls .btn-success,
+.btn-register {
+    margin: 22px 0;
+    width: 400px;
+    height: 42px;
+    background-color: #337ab7;
+    font-size: 18px;
+    color: #fff !important;
+}
+
+.btn-register {
+    font-size: 18px !important;
+    background-color: #d9534f;
+}
+
+.controls:hover .btn-success{
+    background-color: #2e6da4
+}
+
+/*--------------check box---------------------*/
+.checkbox{
+    margin-top: 10px !important;
+}
+
+.checkbox span {
+    line-height: 30px !important;
+    margin-left: 10px;
+}
+
+.check-box {
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+/*------------------------------------*/
+
+
+fieldset {
+    margin: 2% 28% !important;
+    padding: 1% 4.4% !important;
+    border-bottom: 2px solid #aaa !important;
+}
+
+.have-account {
+    text-align: center;
+    font-size: 14px;
+}

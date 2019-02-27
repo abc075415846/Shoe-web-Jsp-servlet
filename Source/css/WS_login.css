@@ -1,0 +1,192 @@
+.main-left {
+    float: left;
+    width: 55%;
+    overflow-y: hidden;
+}
+
+.main-right {
+    float: left;
+    width: 44%;
+}
+
+/*-----------modal-forgot-pass-----------------*/
+
+.wr-fg {
+    margin-top: 10px;
+}
+
+.fgpass {
+    cursor: pointer;
+    font-size: 14px;
+}
+
+
+.btn-exit span {
+    width: 20px;
+    height: 20px;
+    box-sizing: border-box;
+    color: #000;
+}
+
+.btn-exit {
+    cursor: pointer;
+    background-color: #fff;
+    border: 0px;
+    float: right;
+}
+
+.btn-exit span:hover {
+    text-decoration: none;
+}
+
+.modal-content {
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(0%, 30%);
+}
+
+.modal-title {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #aaa;
+    display: block;
+    float: left;
+}
+
+.modal-body {
+    padding: 10px !important;
+    margin-bottom: 20px;
+}
+
+.modal-body input {
+    border: 1px solid #ccc;
+    padding-left: 10px;
+}
+
+#fg-email {
+    margin-top: 2px;
+    width: 300px;
+    height: 35px;
+    border-radius: 6px;
+}
+
+.modal-footer {
+    text-align: center !important;
+}
+
+.modal-footer button {
+    float: right;
+    width: 100px !important;
+    height: 35px !important;
+    color: #fff;
+    line-height: 10px;
+    background-color: #337ab7;
+}
+
+/*----------------------------------*/
+.main-form-login {
+    margin-bottom: 35px;
+    padding-left: 5px;
+}
+.container h3 {
+    padding-bottom: 22px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 35px;
+
+}
+
+.control-group {
+    line-height: 42px;
+}
+
+.control-label {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    height: 30px;
+}
+
+.controls input {
+    width: 400px;
+    height: 37px !important;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    margin-top: -10px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding-left: 10px;
+
+}
+
+.controls input[type="text"],
+.controls input[type="password"] {
+    font-size: 14px;
+}
+
+.controls .btn-success,
+.btn-register {
+    margin: 22px 0;
+    width: 400px;
+    height: 42px;
+    background-color: #337ab7;
+    font-size: 18px;
+    color: #fff !important;
+}
+
+.btn-register {
+    font-size: 18px !important;
+    background-color: #d9534f;
+}
+
+.controls:hover .btn-success{
+    background-color: #2e6da4
+}
+
+.controls:hover .btn-register {
+    background-color: #d43f3a;
+}
+
+.nav-tabs li a {
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+
+/*------------------check box---------------------------*/
+
+.checkbox span {
+    line-height: 30px !important;
+    margin-left: 10px;
+}
+
+.check-box {
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+
+/*---------------------main right--------------------------------*/
+.list-benefit {
+    padding-left: 5px;
+    list-style-type: none;
+    
+}
+.intro-register p {
+    font-size: 16px;
+    color: grey;
+}
+
+.list-benefit li {  
+    font-size: 14px;
+}
+
+.list-benefit li:before {
+    content: '✓';
+    color: #4ecb68;
+    margin: 5px;
+}

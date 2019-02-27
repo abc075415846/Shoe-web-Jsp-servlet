@@ -1,0 +1,4 @@
+#step-2 .form-horizontal,
+#step-3 .form-horizontal{
+    min-height: 412px !important;
+}

@@ -1,0 +1,434 @@
+
+.wrapper {
+    width: 95vw;
+    height: auto;
+    display: inline-block;
+    margin: 0 2.5vw;
+    
+}
+
+/*-------------------------main-left--------------------------------------*/
+main h1 {
+    padding: 20px;
+    text-transform: capitalize;
+    box-sizing: border-box;
+
+}
+
+.main-left {
+    float: left;
+    width: 62.5vw;
+}
+
+.product {
+    padding-bottom: 10px;
+}
+
+.product-info {
+     margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.product-details {
+    
+}
+.product .product-image {
+    text-align: center;
+}
+
+.product .product-image img {
+    width: 100px;
+}
+
+.product .product-details .product-title {
+    margin-right: 20px;
+}
+
+.product .product-details .product-description {
+    margin: 5px 20px 5px 0;
+    line-height: 1.4em;
+}
+
+.product .product-quantity input {
+    width: 40px;
+}
+
+.product .remove-product {
+    border: 0;
+    padding: 4px 8px;
+    background-color: #c66;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+.product .remove-product:hover {
+    background-color: #a44;
+}
+
+.main-left-bottom {
+    width: 100vw;
+    height: auto;
+}
+
+
+
+/*-------------------------------------------------------*/
+
+/*-------------------------main-right--------------------------------------*/
+
+.main-right {
+    float: right;
+    width: 27.5vw;
+    margin: 0 1.5vw; 
+}
+
+.product-title {
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.product-image {
+    float: left;
+    width: 20%;
+}
+
+.product-details {
+    float: left;
+    width: 35%;
+}
+
+.product-price {
+    float: left;
+    width: 14%;
+    
+}
+
+/*------------------------------*/
+
+.product-quantity {
+    float: left;
+    width: 10%;
+}
+
+.product-quantity input {
+    height: 30px;
+    width: 50px !important;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc; 
+}
+
+/*------------------------*/
+
+.product-removal {
+    float: left;
+    width: 9%;
+}
+
+.remove-product {
+    height: 30px;
+    padding-left: 4%;
+}
+
+/*-------------------------*/
+
+.product-line-price {
+    float: left;
+    width: 12%;
+    text-align: right;
+}
+
+/*------------------------- Totals section-------------------- */
+.totals {
+    display: block;
+    margin: 8.5% 5%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 0px;
+}
+
+.totals .totals-item {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.totals-value {
+    width: 30%;
+    float: right;
+    font-size: 15px;
+}
+
+.totals .totals-item label {
+    float: left;
+    width: 70%;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+    color: #000;
+    font-weight: 100;
+}
+
+.totals .totals-item .totals-value {
+    float: right;
+    width: 30%;
+    text-align: right;
+    font-size: 15px
+}
+
+.totals span {
+    width: 100%;
+    text-align: right;
+    display: inline-block;
+}
+
+.totals .totals-item-total {
+}
+
+.row-check {
+    
+}
+
+.col-xs-6 {
+    display: inline-block;
+    width: 100% !important;
+    margin-bottom: 10px;
+} 
+
+.col-xs-6 button, .col-xs-6 a{
+    font-size: 14px;
+    text-transform: capitalize;
+    line-height: 35px;
+    box-sizing: border-box;
+    margin-left: 0!important;
+    
+}
+
+
+/*-------------------------------------------------------*/
+
+/* Global settings */
+
+/* This is used as the traditional .clearfix class */
+
+.group:before,
+.shopping-cart:before,
+.column-labels:before,
+.product:before,
+.totals-item:before,
+.group:after,
+.shopping-cart:after,
+.column-labels:after,
+.product:after,
+.totals-item:after {
+    content: '';
+    display: table;
+}
+
+.group:after,
+.shopping-cart:after,
+.column-labels:after,
+.product:after,
+.totals-item:after {
+    clear: both;
+}
+
+.group,
+.shopping-cart,
+.column-labels,
+.product,
+.totals-item {
+    zoom: 1;
+}
+
+/* Apply clearfix in a few places */
+
+/* Apply dollar signs */
+
+.product .product-price:before,
+.product .product-line-price:before{
+    content: 'VND ';
+}
+
+.totals-value:after {
+    content: ' VND'
+}
+
+/* Body/Header stuff */
+
+h1 {
+    font-weight: 100;
+}
+
+label {
+    color: #aaa;
+}
+
+.shopping-cart {
+    margin-top: -45px;
+}
+
+/* ----------------------Column headers ---------------------------*/
+
+.column-labels label {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    color: #000;
+    font-weight: 100;
+}
+
+.column-labels .product-image,
+.column-labels .product-details,
+.column-labels .product-removal {
+    text-indent: -9999px;
+}
+
+/* --------------------------Product entries------------------------- */
+
+/*------------------------------ Make adjustments for tablet------------------------ */
+
+@media screen and (max-width: 650px) {
+    .shopping-cart {
+        margin: 0;
+        padding-top: 20px;
+        border-top: 1px solid #eee;
+    }
+
+    .column-labels {
+        display: none;
+    }
+
+    .product-image {
+        float: right;
+        width: auto;
+    }
+    .product-image img {
+        margin: 0 0 10px 10px;
+    }
+
+    .product-details {
+        float: none;
+        margin-bottom: 10px;
+        width: auto;
+    }
+
+    .product-price {
+        clear: both;
+        width: 70px;
+    }
+
+    .product-quantity {
+        width: 100px;
+    }
+    .product-quantity input {
+        margin-left: 20px;
+    }
+
+    .product-quantity:before {
+        content: 'x';
+    }
+
+    .product-removal {
+        width: auto;
+    }
+
+    .product-line-price {
+        float: right;
+        width: 70px;
+    }
+}
+
+/* Make more adjustments for phone */
+
+@media screen and (max-width: 350px) {
+    .product-removal {
+        float: right;
+    }
+
+    .product-line-price {
+        float: right;
+        clear: left;
+        width: auto;
+        margin-top: 10px;
+    }
+
+    .product 
+    .product-line-price:before {
+        content: 'Item Total: d';
+    }
+
+    .totals .totals-item label {
+        width: 60%;
+    }
+    .totals .totals-item .totals-value {
+        width: 40%;
+    }
+}
+
+/*-----------------------------------*/
+.recommended-items {
+    margin-left: 5px;
+}
+.recommended-items .card {
+    width: 140px;
+    height: 250px;
+    float: left;
+    display: block;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.recommended-items img {
+    width: 100%;
+    height: 150px;;
+}
+.recommended-items .card-body {
+    margin-left: 20px;
+}
+.recommended-items .card-body h5 {
+    font-size: 15px;
+    font-weight: 600;
+    
+}
+
+.recommended-items .text-muted small {
+    font-size: 14px;
+}
+
+/*------------------new-----------------------*/
+.product-quantity{
+    position: relative;
+}
+
+.product-quantity input {
+    padding-left: 5px!important;
+    margin-left: 27px;
+    border-radius: 0px;
+    width: 30px !important;
+    border: 0px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.product-quantity a {
+    position: absolute;
+    background-color: fff;
+    display: inline-block;
+    width: 27px;
+    height: 30px;
+    text-align: center;
+    padding: 5px 0;
+    border: 1px solid #ccc;
+    color: #000;
+    border-radius: 2px;
+}
+
+.product-quantity a:hover {
+    text-decoration: none;
+    background-color: #ccc;
+}
+
